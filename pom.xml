@@ -21,7 +21,9 @@
 				<artifactId>soapui-maven-plugin</artifactId>
 				<version>5.5.0</version>
 				<configuration>
-					<projectFile>${basedir}/ProjectName.xml</projectFile>
+					<!-- Project file name -->
+					<projectFile>${basedir}/Sample-soapui-project.xml</projectFile>
+					<!-- output Folder path for test report -->
 					<outputFolder>${basedir}/target/surefire-reports</outputFolder>
 					<junitReport>true</junitReport>
 					<exportAll>false</exportAll>
