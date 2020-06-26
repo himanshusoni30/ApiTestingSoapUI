@@ -1,6 +1,6 @@
 # ApiTestingSoapUI
 Run Soap UI (free version) tests through MAVEN and generate HTML report
-====================================================================================================================================================
+==================================================================================
 
 # SOAP UI - MAVEN integration
 
@@ -9,7 +9,7 @@ Run Soap UI (free version) tests through MAVEN and generate HTML report
   2. Generate a pom.xml file (please refer pom.xml file)
       - For more granularity in tests and other configurations refer https://www.soapui.org/test-automation/maven/maven-2-x/
       
-====================================================================================================================================================
+==================================================================================
 
 # Steps to run tests through Command Prompt
 
@@ -17,7 +17,7 @@ Run Soap UI (free version) tests through MAVEN and generate HTML report
   2. Go to the path of your project where pom.xml file is present
   3. run 'mvn clean surefire-report:report' command to generate surefire-report.html report in outputFolder (can be configured in pom.xml)
   
-=====================================================================================================================================================
+===================================================================================
 
 # Steps to run tests through Jenkins
 
